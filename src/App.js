@@ -1,16 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import { Seccion } from './header';
+import { Navbar } from './components/Navbar/Navbar.js';  
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Seccion/>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+
+  // const ojetoPrueba = {
+    //   nombre: "pelota",
+    //   peso: 0.2,
+    //   marca: 'adidas'
+    //   precio: 2500,
+    // }  
+  
+  return  (
+    <div>
+      <Navbar/>
     </div>
-  );
+  )
 }
 
 export default App;
